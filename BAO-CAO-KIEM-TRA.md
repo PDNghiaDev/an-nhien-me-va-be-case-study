@@ -14,6 +14,8 @@ Ngày kiểm tra: 14/09/2026.
 - Bản demo có noindex ở metadata và chặn toàn bộ crawler trong robots.
 - Repository công khai đã push lên GitHub: https://github.com/PDNghiaDev/an-nhien-me-va-be-case-study
 - Bản preview HTTPS đã deploy trên Cloudflare Pages: https://an-nhien-me-va-be-case-study.pages.dev
+- Cấu trúc đã được tách thành website đa trang: 6 trang cấp một, 3 trang dịch vụ, 1 hồ sơ đội ngũ và 3 bài kiến thức.
+- Các route mẫu `khoa-hoc`, `hoc-vien`, `tin-tuc` của Starter đã được gỡ; kiểm tra cục bộ trả về HTTP 404.
 
 ## Không ghi đạt
 
