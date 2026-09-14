@@ -1,1 +1,1 @@
-import type {MetadataRoute} from "next";export const dynamic="force-static";export default function robots():MetadataRoute.Robots{return {rules:{userAgent:"*",disallow:"/"},sitemap:"https://an-nhien-me-va-be.invalid.test/sitemap.xml"}}
+import type {MetadataRoute} from "next";export const dynamic="force-static";export default function robots():MetadataRoute.Robots{return {rules:{userAgent:"*",disallow:"/"},sitemap:"https://an-nhien-me-va-be-case-study.pages.dev/sitemap.xml"}}
