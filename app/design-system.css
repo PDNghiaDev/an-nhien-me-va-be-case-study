@@ -1,0 +1,146 @@
+/* Shared visual contract. Page styles own layout; this file owns UI primitives.
+   Button, SectionHeading và FaqList đã chuyển hẳn sang class component;
+   selector có tiền tố body chỉ còn dùng cho typography và nền theo bối cảnh trang. */
+.directContact { display: grid; gap: 16px; align-content: start; align-self: start; }
+.sourceNewsPage .newsFilterBar { display: flex; margin-top: 24px; }
+.videoPosterFallback { position: absolute; inset: 0; display: grid; place-items: center; background: var(--color-primary-dark); color: var(--color-cream); }
+.directContact h3,.directContact p { margin: 0; }
+.directContact .button { justify-self: start; max-width: 100%; overflow-wrap: anywhere; }
+@media (max-width: 767px) {
+  .floatingActions[data-near-form="true"] { display: none; }
+}
+:root {
+  --font-display: var(--font-lora), Georgia, serif;
+  --color-primary: #176b45;
+  --color-primary-dark: #1d4a34;
+  --color-heading: #1d4a34;
+  --color-gold: #c9a24a;
+  /* Sắc vàng thương hiệu đã hạ độ sáng để dùng cho CHỮ trên nền sáng.
+     #c9a24a trên nền kem chỉ đạt ~1.9:1; #7d5f1b đạt ≥4.7:1 trên kem, trắng
+     và #ede4d7 nên vẫn giữ được nhận diện vàng mà đọc được. */
+  --color-gold-ink: #7d5f1b;
+  --color-accent: #c9a24a;
+  --color-background: #faf6ee;
+  --color-cream: #faf6ee;
+  --color-surface: #fff;
+  --color-muted: #66736b;
+  --color-border: #e7dfd1;
+  --radius-card: 16px;
+  --radius-button: 999px;
+  --shadow-soft: 0 12px 30px rgb(29 74 52 / 8%);
+  --ui-h1: clamp(36px, 4.2vw, 56px);
+  --ui-h2: clamp(28px, 3vw, 40px);
+  --ui-h3: clamp(20px, 1.7vw, 24px);
+}
+
+/* Heading hierarchy, shared across old and rebuilt pages. */
+body main h1 { font-family: var(--font-display); font-size: var(--ui-h1); line-height: 1.12; letter-spacing: -.02em; text-wrap: balance; white-space: normal; }
+body main h2 { font-family: var(--font-display); font-size: var(--ui-h2); line-height: 1.2; letter-spacing: -.015em; text-wrap: balance; }
+body main h3 { font-family: var(--font-display); font-size: var(--ui-h3); line-height: 1.3; }
+body main :is(.sourceCourseHero,.sourceProfileHero,.sourceFacultyHero,.sourceStudentsHero,.sourceNewsHero,.sourceAboutHero,.courseLandingHero) h1 { font-size: var(--ui-h1); line-height: 1.12; white-space: normal; }
+body main :is(.sourceCoursePrograms,.sourceRoadmap,.sourceCommitments,.sourceProfileJourney,.sourceProfileCore,.sourceProfileGallery,.sourceFacultyList,.sourceFacultyValues,.courseLandingAudience,.courseLandingResults,.courseLandingCurriculum,.courseLandingExperience,.courseLandingFaq,.courseLandingFinal) h2 { font-size: var(--ui-h2); line-height: 1.2; }
+/* Hero subtitles and utility/sidebar headings are not section headings. */
+body main :is(.sourceAboutHero,.sourceNewsHero) h2 { font-family: var(--font-be-vietnam-pro),sans-serif; font-size: 21px; line-height: 1.5; }
+body main :is(.sourceNewsSidebar,.sourceContactBenefits) h2 { font-size: 19px; line-height: 1.35; }
+body main :is(.sourceRoadmap,.courseLandingCurriculum,.courseLandingExperience) h3 { font-family: var(--font-be-vietnam-pro),sans-serif; font-size: 17px; line-height: 1.4; }
+
+/* CTA primitive — mọi nút của website đi qua component Button.
+   CSS trang chỉ được chỉnh vị trí/độ rộng, không dựng lại hình học nút. */
+.button {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 50px; padding: 12px 24px; border: 1px solid transparent;
+  border-radius: var(--radius-button);
+  font-family: var(--font-be-vietnam-pro),sans-serif; font-size: 14px;
+  font-weight: 600; line-height: 1.5; text-align: center; text-decoration: none;
+  text-wrap: balance; cursor: pointer;
+  transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease;
+}
+.buttonPrimary { background: var(--color-primary-dark); color: #fff; border-color: var(--color-primary-dark); }
+.buttonPrimary:hover { background: var(--color-primary); border-color: var(--color-primary); }
+.buttonSecondary { background: transparent; color: var(--color-primary-dark); border-color: var(--color-primary-dark); }
+.buttonSecondary:hover { background: var(--color-primary-dark); color: #fff; }
+.button:disabled { opacity: .55; cursor: not-allowed; }
+.button:disabled:hover { background: var(--color-primary-dark); border-color: var(--color-primary-dark); }
+.buttonSecondary:disabled:hover { background: transparent; color: var(--color-primary-dark); }
+.button[aria-busy="true"] { cursor: progress; }
+.button svg { width: 18px; height: 18px; flex-shrink: 0; stroke-width: 1.75; transition: transform 180ms ease; }
+/* Chỉ mũi tên đuôi mới trượt khi hover; icon dẫn nghĩa đứng đầu thì giữ nguyên. */
+.button:hover > svg:last-child:not(:first-child) { transform: translateX(3px); }
+body a:focus-visible,body button:focus-visible,body summary:focus-visible { outline: 3px solid var(--color-gold); outline-offset: 4px; }
+
+/* Same palette for both learning formats, not a separate orange sub-brand. */
+body .courseLanding { --landing-accent: var(--color-gold); }
+/* Chữ phụ trên nền sáng dùng chung một token đọc được (xem .sectionHeading--source).
+   Vàng nguyên bản --color-gold chỉ dùng cho trang trí hoặc chữ trên nền xanh đậm. */
+.sourceContactPage { --section-eyebrow: var(--color-gold-ink); }
+body :is(.sourceCourseCatalogV2,.courseLanding,.sourceFacultyPage,.sourceProfilePage) { background-color: var(--color-background); }
+body main :is(.sourceCourseHero,.sourceCoursePrograms,.sourceRoadmap,.sourceCommitments,.sourceProfileAbout,.sourceProfileGallery,.courseLandingHero,.courseLandingAudience,.courseLandingCurriculum,.courseLandingFaq) { background-color: var(--color-background); }
+body main :is(.courseLandingResults,.courseLandingBadges > .container,.sourceCourseCatalogV2 .sourceCommitments > .container,.sourceCourseCatalogV2 .sourceStats > .container) { background-color: var(--color-primary-dark); }
+body main :is(.sourceProgramGrid article,.sourceFacultyList article,.sourceRoadmap li,.sourceProfileCoreGrid article,.sourceProfileStats > div) { border-radius: var(--radius-card); border-color: var(--color-border); box-shadow: var(--shadow-soft); }
+/* Liên kết văn bản có mũi tên lucide thay ký tự "→": giữ icon thẳng hàng với chữ. */
+.sourceFacultyList article b, .sourceNewsCourse a { display: flex; align-items: center; gap: 7px; }
+.sourceNewsCourse a { width: max-content; }
+.sourceFacultyList article b svg, .sourceNewsCourse a svg { flex-shrink: 0; }
+.profileFeatureIcon { display: block; width: 44px; height: 44px; padding: 11px; border: 1px solid var(--color-border); border-radius: 50%; color: var(--color-gold); stroke-width: 1.75; }
+.sourceProfilePromises i .profileFeatureIcon { position: absolute; top: 0; left: 0; }
+.sourceProfileCoreGrid article .profileFeatureIcon { margin: 0 auto 16px; }
+body main :is(.sourceProfilePromises small,.sourceProgramGrid article > span,.sourceRoadmap li p,.sourceCommitments article p) { font-size: 14px; line-height: 1.7; }
+body main :is(.courseLandingAudience,.courseLandingCurriculum,.courseLandingFaq,.sourceFacultyList) { padding-block: clamp(56px,6vw,80px); }
+body main :is(.courseLandingExperienceMedia,.sourceProfileAboutImage) { border-radius: var(--radius-card); }
+@media(max-width:767px) {
+  body main :is(.sourceCourseHero,.sourceProfileHero,.sourceFacultyHero,.sourceStudentsHero,.sourceNewsHero,.sourceAboutHero,.courseLandingHero) h1 { font-size: 36px; }
+  body main :is(.sourceCoursePrograms,.sourceRoadmap,.sourceCommitments,.sourceProfileJourney,.sourceProfileCore,.sourceProfileGallery,.sourceFacultyList,.sourceFacultyValues,.courseLandingAudience,.courseLandingResults,.courseLandingCurriculum,.courseLandingExperience,.courseLandingFaq,.courseLandingFinal) h2 { font-size: 28px; }
+}
+/* Cụm tiêu đề section dùng chung cho các dải trang chủ (khóa học, video, cộng đồng, tin tức). */
+.sectionHeading--band { max-width: 800px; margin-inline: auto; text-align: center; }
+.sectionHeading--band .eyebrow { margin: 0 0 12px; color: var(--color-primary); font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.sectionHeading--band h2 { max-width: 720px; margin: 0 auto; }
+.sectionHeading--band .sectionHeadingLead { max-width: 660px; margin: 13px auto 0; color: var(--color-muted); font-size: 14px; line-height: 1.65; }
+
+/* Cụm tiêu đề section của các trang dựng lại từ bản gốc: eyebrow + h2 + mô tả.
+   Cỡ chữ h2 vẫn do art direction từng trang quyết định; ở đây chỉ thống nhất
+   eyebrow, khoảng cách và đoạn mô tả. --section-eyebrow đặt theo từng trang. */
+.sectionHeading--source .eyebrow { margin: 0; color: var(--section-eyebrow, var(--color-gold-ink)); font-size: 12px; font-weight: 800; letter-spacing: .16em; line-height: 1.5; text-transform: uppercase; }
+.sectionHeading--source h2 { margin: 10px 0 0; }
+.sectionHeadingLead { margin: 16px 0 0; }
+.sectionHeading--source .sectionHeadingLead { max-width: 660px; color: var(--color-muted); font-size: 15px; font-weight: 400; letter-spacing: 0; line-height: 1.75; text-transform: none; }
+.sectionHeading--center .sectionHeadingLead { margin-inline: auto; }
+/* Trên nền xanh đậm: tiêu đề trắng, mô tả đủ tương phản, eyebrow giữ vàng thương hiệu. */
+.sectionHeading--dark h2 { color: #fff; }
+.sectionHeading--dark .sectionHeadingLead { color: rgb(255 255 255 / 78%); }
+.sectionHeading--dark .eyebrow { color: var(--color-gold); }
+
+/* Vị trí CTA theo bối cảnh — hình học vẫn do .button quyết định. */
+.siteNav .button { flex: 0 0 auto; white-space: nowrap; }
+.homeHeroActions .button, .consultActions .button { flex: 0 1 auto; }
+.homeNewsAction .button { display: inline-flex; }
+.courseCardCta { align-self: flex-start; margin-top: 14px; }
+.sourceAboutEndCta { width: max-content; margin: 36px auto 0; }
+.sourceSocial .button { margin-top: 26px; }
+.sourceCourseCatalogV2 .sourceHeroActions .button { min-width: 190px; }
+.sourceCourseCatalogV2 .sourceProgramGrid .button { width: 100%; margin-top: auto; }
+/* CTA trên nền xanh đậm: dùng vàng thương hiệu và viền kem để giữ tương phản. */
+.consultActions .buttonPrimary { background: var(--color-gold); border-color: var(--color-gold); color: #22301f; }
+.consultActions .buttonPrimary:hover { background: color-mix(in srgb, var(--color-gold) 84%, #fff); border-color: color-mix(in srgb, var(--color-gold) 84%, #fff); }
+.consultActions .buttonSecondary { border-color: var(--color-cream); color: var(--color-cream); }
+.consultActions .buttonSecondary:hover { background: var(--color-cream); color: var(--color-heading); }
+
+/* CTA trong panel menu bung: chiếm trọn bề ngang panel ở cả tablet lẫn mobile. */
+@media(max-width:1023px) {
+  .siteNav .button { justify-content: center; margin-top: 8px; }
+}
+@media(max-width:767px) {
+  .homeHeroActions .button, .consultActions .button, .sourceCourseCatalogV2 .sourceHeroActions .button { flex: 1 1 auto; }
+  .homeNewsAction .button, .courseLandingFinal .button, .sourceAboutEndCta { display: flex; width: 100%; }
+  .sourceAboutEndCta { margin-inline: 0; }
+  .courseCardCta { align-self: stretch; }
+}
+
+.uiFaqList { border-top: 1px solid var(--color-border); }
+.uiFaqList details { border-bottom: 1px solid var(--color-border); }
+.uiFaqList summary { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 22px 0; cursor: pointer; list-style: none; font-weight: 600; }
+.uiFaqList summary::-webkit-details-marker { display: none; }
+.uiFaqList summary svg { flex-shrink: 0; stroke-width: 1.75; }
+.uiFaqList details[open] summary svg { transform: rotate(180deg); }
+.uiFaqList details p { margin: 0; padding: 0 32px 22px 0; color: var(--color-muted); line-height: 1.7; }
+@media(prefers-reduced-motion:reduce) { body a,body button { transition: none; } }

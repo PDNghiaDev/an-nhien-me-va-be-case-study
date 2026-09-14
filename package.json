@@ -1,0 +1,38 @@
+{
+  "name": "an-nhien-me-va-be-case-study",
+  "version": "2.0.0-rc.2",
+  "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node scripts/serve-out.mjs",
+    "lint": "eslint",
+    "kiem-tra": "node scripts/kiem-tra-workspace.mjs",
+    "kiem-tra-du-lieu": "node scripts/kiem-tra-hop-dong-du-lieu.mjs",
+    "kiem-tra-giao-dien": "node scripts/kiem-tra-he-thong-giao-dien.mjs",
+    "kiem-tra-trang-web": "node scripts/kiem-tra-trang-web.mjs",
+    "kiem-tra-lien-he": "node scripts/kiem-tra-lien-he.mjs",
+    "kiem-tra-seo": "node scripts/kiem-tra-seo.mjs",
+    "kiem-tra-static": "node scripts/kiem-tra-ban-tinh.mjs",
+    "xem-ban-tinh": "node scripts/serve-out.mjs",
+    "kiem-tra-ban-giao": "node scripts/kiem-tra-ban-giao.mjs",
+    "kiem-tra-go-live": "node scripts/kiem-tra-go-live.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.38.0",
+    "next": "16.3.3",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.3",
+    "typescript": "^5"
+  }
+}

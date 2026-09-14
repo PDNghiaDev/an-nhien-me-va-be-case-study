@@ -1,0 +1,57 @@
+{
+  "seo":{"title":"Liên hệ","description":"Chuẩn bị mục tiêu, thời gian và hình thức học trước khi trao đổi về khóa học pha chế.","path":"/lien-he","ogImage":"/images/hero/hero-thuc-hanh-v2.webp","ogImageAlt":"Không gian thực hành pha chế của website demo"},
+  "hero":{"eyebrow":"Liên hệ","title":"Trao đổi trước khi chọn khóa","description":"Chuẩn bị mục tiêu học, thời gian có thể thực hành và hình thức đang cân nhắc để cuộc trao đổi đi thẳng vào nhu cầu.","status":"DEMO"},
+  "channels":{"title":"Kết nối trực tiếp với Nguyên Khoa","description":"Các kênh dưới đây được đối chiếu từ website chính thức của Nguyên Khoa ngày 03/09/2026.","status":"ĐÃ XÁC MINH","items":[{"label":"Zalo","value":"096 451 58 50","href":"https://zalo.me/0964515850","status":"ĐÃ XÁC MINH"},{"label":"Điện thoại","value":"096 451 58 50 · 0964.220.088","href":"tel:+84964515850","status":"ĐÃ XÁC MINH"},{"label":"Email","value":"trungtamdaotaonguyenkhoa@gmail.com","href":"mailto:trungtamdaotaonguyenkhoa@gmail.com","status":"ĐÃ XÁC MINH"},{"label":"Địa chỉ","value":"NN1B Bạch Mã, phường Hoà Hưng (Quận 10 cũ), TP. Hồ Chí Minh","href":"","status":"ĐÃ XÁC MINH"}]},
+  "checklist":{"eyebrow":"Chuẩn bị trước","title":"Bốn câu hỏi giúp tư vấn nhanh hơn","status":"DEMO","items":["Bạn học để trải nghiệm, bổ sung kỹ năng hay chuẩn bị mở quán?","Bạn ưu tiên học trực tiếp hay online?","Khoảng thời gian nào thuận tiện?","Bạn đã có dụng cụ hoặc không gian thực hành chưa?"]},
+  "social":{
+    "eyebrow":"Cộng đồng",
+    "title":"Theo dõi Nguyên Khoa trên các kênh khác",
+    "description":"Theo dõi nội dung và trao đổi với Nguyên Khoa qua các kênh đang được công khai trên website chính thức.",
+    "status":"ĐÃ XÁC MINH",
+    "items":[
+      {"label":"Fanpage Facebook","description":"Cập nhật lịch khai giảng và hoạt động lớp học","href":"https://www.facebook.com/nguyenkhoa.fanpage","status":"ĐÃ XÁC MINH"},
+      {"label":"Zalo tư vấn","description":"Trao đổi nhanh với đội ngũ tư vấn","href":"https://zalo.me/0964515850","status":"ĐÃ XÁC MINH"},
+      {"label":"Kênh YouTube","description":"Video cảm nhận và hậu trường lớp học","href":"https://www.youtube.com/@nguyenkhoafb7545","status":"ĐÃ XÁC MINH"}
+    ]
+  },
+  "form":{
+    "title":"Nhận tư vấn miễn phí",
+    "description":"Chúng tôi phản hồi trong giờ làm việc, từ 8h đến 20h mỗi ngày.",
+    "status":"DEMO",
+    "name":{
+      "label":"Họ và tên",
+      "placeholder":"Nguyễn Văn A",
+      "required":true,
+      "requiredError":"Vui lòng nhập họ và tên.",
+      "invalidError":"Họ và tên cần ít nhất 2 ký tự."
+    },
+    "phone":{
+      "label":"Số điện thoại",
+      "placeholder":"0964 220 088",
+      "required":true,
+      "requiredError":"Vui lòng nhập số điện thoại.",
+      "invalidError":"Số điện thoại chưa đúng định dạng, ví dụ 0964220088."
+    },
+    "topic":{
+      "label":"Bạn cần tư vấn về",
+      "placeholder":"Chọn nội dung cần tư vấn",
+      "required":true,
+      "requiredError":"Vui lòng chọn nội dung cần tư vấn.",
+      "invalidError":"Vui lòng chọn nội dung cần tư vấn.",
+      "options":["Khóa học pha chế","Mở quán & vận hành","Xây dựng menu","Học phí - Lộ trình","Khác"]
+    },
+    "message":{
+      "label":"Lời nhắn",
+      "placeholder":"Bạn đang chuẩn bị mở quán ở đâu, quy mô thế nào?",
+      "required":false,
+      "requiredError":"",
+      "invalidError":"Lời nhắn tối đa 500 ký tự."
+    },
+    "submitLabel":"KIỂM TRA FORM DEMO",
+    "successMessage":"Dữ liệu hợp lệ. Không có thông tin nào được gửi hoặc lưu.",
+    "errorSummary":"Vui lòng kiểm tra lại các ô được đánh dấu bên dưới.",
+    "demoNote":"MÔ PHỎNG FORM — dữ liệu chỉ được kiểm tra trên trình duyệt, không được gửi hoặc lưu. Muốn liên hệ thật, hãy dùng Zalo, điện thoại hoặc email bên cạnh."
+  },
+  "fallbackCta":{"label":"Xem khóa học","href":"/khoa-hoc","status":"DEMO"},
+  "submissionEnabled":false
+}

@@ -1,0 +1,1 @@
+import Link from "next/link";export default function NotFound(){return <section className="not-found"><p className="eyebrow">404</p><h1>Trang này chưa có.</h1><p>Đường dẫn có thể đã thay đổi.</p><Link className="button" href="/">Về trang chủ</Link></section>}

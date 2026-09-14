@@ -1,0 +1,80 @@
+{
+  "workspaceName":"Website AI Starter","siteMode":"demo","currentStage":1,
+  "seo":{"siteUrl":"https://nguyen-khoa-golden-website-demo.pages.dev","defaultTitle":"Nguyên Khoa F&B — Đào tạo pha chế thực chiến","titleTemplate":"%s | Nguyên Khoa F&B","defaultDescription":"Website demo giúp người chuẩn bị mở quán tìm hiểu hình thức học pha chế trực tiếp và online.","locale":"vi_VN","ogImage":"/images/hero/hero-thuc-hanh-v2.webp","ogImageAlt":"Học viên thực hành pha chế tại Nguyên Khoa F&B","title":"Nguyên Khoa F&B","description":"Website demo đào tạo pha chế thực chiến.","path":"/","isTemporaryUrl":true},
+  "brandName":{"value":"Nguyên Khoa F&B","status":"ĐÃ XÁC MINH"},
+  "tagline":{"value":"Đào tạo pha chế thực chiến","status":"DEMO"},
+  "demoBanner":{"value":"Bản demo — nội dung và hình ảnh sẽ được xác minh trước khi xuất bản","status":"DEMO"},
+  "logo":{"src":"/images/original-site/logo-nguyen-khoa.png","alt":"Logo Nguyên Khoa","width":500,"height":400,"status":"ĐÃ XÁC MINH"},
+  "navigation":[
+    {"label":"Trang chủ","href":"/"},
+    {"label":"Giới thiệu","href":"/gioi-thieu"},
+    {"label":"Khóa học pha chế","href":"/khoa-hoc","children":[
+      {"label":"Học pha chế trực tiếp","href":"/khoa-hoc/pha-che-truc-tiep"},
+      {"label":"Học pha chế online","href":"/khoa-hoc/pha-che-online"},
+      {"label":"Tất cả khóa học","href":"/khoa-hoc"}
+    ]},
+    {"label":"Về chuyên gia","href":"/doi-ngu","children":[
+      {"label":"Nguyễn Đình Khoa","href":"/doi-ngu#nguyen-dinh-khoa"},
+      {"label":"Trần Hoàng Giang","href":"/doi-ngu#tran-hoang-giang"},
+      {"label":"Võ Phạm Khánh Vy","href":"/doi-ngu#vo-pham-khanh-vy"},
+      {"label":"Toàn bộ đội ngũ","href":"/doi-ngu"}
+    ]},
+    {"label":"Học viên","href":"/hoc-vien"},
+    {"label":"Tin tức","href":"/tin-tuc"},
+    {"label":"Liên hệ","href":"/lien-he"}
+  ],
+  "floatingActions":{
+    "zalo":{"enabled":true,"label":"Chat Zalo","ariaLabel":"Chat Zalo với Nguyên Khoa F&B","href":"https://zalo.me/0964515850","badge":"HỖ TRỢ","status":"ĐÃ XÁC MINH"},
+    "backToTop":{"enabled":true,"label":"Về đầu trang","showAfter":420}
+  },
+  "footerLinks":[{"label":"Chính sách bảo mật","href":"/chinh-sach-bao-mat"}],
+  "catalog":{"basePath":"/khoa-hoc","singular":"Khóa học","plural":"Các khóa học"},
+  "routes":{"home":"/","about":"/gioi-thieu","faculty":"/doi-ngu","students":"/hoc-vien","news":"/tin-tuc","contact":"/lien-he","legal":"/chinh-sach-bao-mat"},
+  "headerCta":{"label":"Đăng ký tư vấn","href":"/lien-he","status":"DEMO"},
+  "contact":{
+    "phone":{"value":"(+84) 096 451 58 50 · 0964.220.088","status":"ĐÃ XÁC MINH"},
+    "email":{"value":"trungtamdaotaonguyenkhoa@gmail.com","status":"ĐÃ XÁC MINH"},
+    "address":{"value":"NN1B Bạch Mã, phường Hoà Hưng (Quận 10 cũ), TP. Hồ Chí Minh","status":"ĐÃ XÁC MINH"},
+    "phoneLinks":[
+      {"value":"(+84) 096 451 58 50","href":"tel:+84964515850"},
+      {"value":"0964.220.088","href":"tel:+84964220088"}
+    ],
+    "emailLink":{"value":"trungtamdaotaonguyenkhoa@gmail.com","href":"mailto:trungtamdaotaonguyenkhoa@gmail.com"}
+  },
+  "footer":{
+    "status":"ĐÃ XÁC MINH",
+    "tagline":"Trung tâm đào tạo pha chế thực chiến, đồng hành cùng người mở quán từ lúc học nghề đến khi vận hành ổn định.",
+    "columns":[
+      {"title":"Khám phá","links":[
+        {"label":"Trang chủ","href":"/"},
+        {"label":"Giới thiệu","href":"/gioi-thieu"},
+        {"label":"Khóa học pha chế","href":"/khoa-hoc"},
+        {"label":"Về chuyên gia","href":"/doi-ngu"}
+      ]},
+      {"title":"Hỗ trợ","links":[
+        {"label":"Học viên","href":"/hoc-vien"},
+        {"label":"Tin tức","href":"/tin-tuc"},
+        {"label":"Liên hệ","href":"/lien-he"},
+        {"label":"Chính sách bảo mật","href":"/chinh-sach-bao-mat"}
+      ]}
+    ],
+    "contactTitle":"Liên hệ",
+    "newsletter":{
+      "title":"Nhận bản tin",
+      "description":"Công thức mới và kinh nghiệm vận hành quán, gửi mỗi tháng một lần.",
+      "field":{
+        "label":"Email nhận bản tin",
+        "placeholder":"email@cuaban.com",
+        "required":true,
+        "requiredError":"Vui lòng nhập email.",
+        "invalidError":"Email chưa đúng định dạng."
+      },
+      "buttonLabel":"Thử form demo",
+      "note":"MÔ PHỎNG FORM — email chỉ được kiểm tra trên trình duyệt, không được gửi hoặc lưu.",
+      "successMessage":"Email hợp lệ. Không có thông tin nào được gửi hoặc lưu.",
+      "status":"DEMO"
+    }
+  },
+  "notFound":{"eyebrow":"404","title":"Trang bạn tìm chưa có ở đây","description":"Đường dẫn có thể đã thay đổi hoặc nội dung chưa được mở.","homeLabel":"Về trang chủ","catalogLabel":"Xem khóa học"},
+  "ui":{"openMenu":"Mở menu","closeMenu":"Đóng menu","primaryNavigation":"Điều hướng chính","footerNavigation":"Điều hướng cuối trang","skipToContent":"Bỏ qua điều hướng","copyright":"© 2026 NGUYÊN KHOA F&B. All rights reserved.","expandSubmenu":"Mở menu con","homeLinkLabel":"Nguyên Khoa F&B — về trang chủ"}
+}

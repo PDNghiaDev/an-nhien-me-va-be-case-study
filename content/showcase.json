@@ -1,0 +1,42 @@
+{
+  "advantages":{"eyebrow":"Nền tảng đào tạo","title":"Không chỉ học công thức. Bạn học cách làm nghề.","description":"Sáu giá trị giúp người mới đi từ thao tác cơ bản đến khả năng tự vận hành một quầy đồ uống.","items":[
+    {"title":"70% thực hành","description":"Quan sát, tự làm và được chỉnh thao tác ngay trong quá trình học."},
+    {"title":"Công thức thực chiến","description":"Học theo nhóm thức uống và quy trình có thể tiếp tục luyện tập."},
+    {"title":"Hỗ trợ mở quán","description":"Mở rộng từ kỹ năng pha chế sang menu, setup và vận hành."},
+    {"title":"Cộng đồng đồng hành","description":"Kết nối học viên để tiếp tục trao đổi kinh nghiệm sau khóa học."},
+    {"title":"Lộ trình rõ ràng","description":"Người mới biết mình cần chuẩn bị gì và tiến bộ qua từng giai đoạn."},
+    {"title":"Phản hồi trực tiếp","description":"Nhận góp ý trên thành phẩm thay vì chỉ xem và chép công thức."}
+  ]},
+  "story":{"eyebrow":"Hành trình phát triển","label":"Nguyên Khoa F&B","title":"Từ đam mê pha chế đến một cộng đồng học nghề","description":"Các cột mốc dưới đây kế thừa từ website Nguyên Khoa và cần chủ thương hiệu xác minh lần cuối trước Go-live.","status":"DEMO","items":[
+    {"year":"2014","title":"Khởi đầu từ đam mê pha chế & đào tạo"},
+    {"year":"2016","title":"Xây dựng giáo trình thực chiến đầu tiên"},
+    {"year":"2018","title":"Mở rộng đào tạo, đồng hành cùng hàng nghìn học viên"},
+    {"year":"2020","title":"Phát triển mô hình hỗ trợ mở quán trọn gói"},
+    {"year":"2022","title":"Ra mắt cộng đồng học viên toàn quốc"},
+    {"year":"2024+","title":"Tiếp tục đổi mới, lan tỏa giá trị F&B Việt"}
+  ]},
+  "faculty":{"eyebrow":"Đội ngũ giảng viên","title":"Học từ người đã đứng quầy, xây menu và đồng hành cùng quán","description":"Hồ sơ được dùng làm showcase; kinh nghiệm và vai trò cần đối chiếu nguồn chính thức trước xuất bản.","items":[
+    {"slug":"nguyen-dinh-khoa","name":"Nguyễn Đình Khoa","role":"Khách mời & Diễn giả","bullets":["15+ năm kinh nghiệm F&B","Chuyên gia phát triển menu","Tư vấn & vận hành chuỗi quán"],"image":{"src":"/images/original-site/faculty-khoa.webp","alt":"Chân dung giảng viên Nguyễn Đình Khoa","status":"DEMO"},"seo":{"title":"Nguyễn Đình Khoa — Khách mời & Diễn giả","description":"Hồ sơ showcase của Nguyễn Đình Khoa, khách mời và diễn giả tại Nguyên Khoa F&B. Nội dung cần xác minh trước Go-live.","path":"/doi-ngu/nguyen-dinh-khoa","ogImage":"/images/original-site/faculty-khoa.webp","ogImageAlt":"Chân dung giảng viên Nguyễn Đình Khoa"},"bio":"Hồ sơ showcase mô tả hành trình gắn bó với ngành F&B, từ đứng quầy pha chế đến tư vấn phát triển menu và vận hành chuỗi quán. Nội dung dưới đây kế thừa từ website gốc và cần đối chiếu với hồ sơ thật trước khi công bố.","verification":["Xác minh số năm kinh nghiệm và các vai trò đã đảm nhiệm","Xác minh danh sách chuỗi quán/thương hiệu đã tư vấn","Xin phép sử dụng hình ảnh & thông tin cá nhân chính thức"]},
+    {"slug":"tran-hoang-giang","name":"Trần Hoàng Giang","role":"Giảng viên chính","bullets":["Chuyên gia trà & đồ uống","Kinh nghiệm đào tạo 7+ năm","Hỗ trợ học viên tận tâm"],"image":{"src":"/images/original-site/faculty-giang.webp","alt":"Chân dung giảng viên Trần Hoàng Giang","status":"DEMO"},"seo":{"title":"Trần Hoàng Giang — Giảng viên chính","description":"Hồ sơ showcase của Trần Hoàng Giang, giảng viên chính tại Nguyên Khoa F&B. Nội dung cần xác minh trước Go-live.","path":"/doi-ngu/tran-hoang-giang","ogImage":"/images/original-site/faculty-giang.webp","ogImageAlt":"Chân dung giảng viên Trần Hoàng Giang"},"bio":"Hồ sơ showcase mô tả chuyên môn về trà và đồ uống cùng nhiều năm trực tiếp đứng lớp, đồng hành sát sao với học viên trong từng buổi thực hành. Nội dung dưới đây kế thừa từ website gốc và cần đối chiếu với hồ sơ thật trước khi công bố.","verification":["Xác minh số năm kinh nghiệm đào tạo thực tế","Xác minh các chứng chỉ/khóa đào tạo chuyên môn","Xin phép sử dụng hình ảnh & thông tin cá nhân chính thức"]},
+    {"slug":"vo-pham-khanh-vy","name":"Võ Phạm Khánh Vy","role":"Giảng viên pha chế","bullets":["Chuyên gia đồ uống sáng tạo","Kinh nghiệm thi đấu & giám khảo","Truyền cảm hứng cho học viên"],"image":{"src":"/images/original-site/faculty-vy.webp","alt":"Chân dung giảng viên Võ Phạm Khánh Vy","status":"DEMO"},"seo":{"title":"Võ Phạm Khánh Vy — Giảng viên pha chế","description":"Hồ sơ showcase của Võ Phạm Khánh Vy, giảng viên pha chế tại Nguyên Khoa F&B. Nội dung cần xác minh trước Go-live.","path":"/doi-ngu/vo-pham-khanh-vy","ogImage":"/images/original-site/faculty-vy.webp","ogImageAlt":"Chân dung giảng viên Võ Phạm Khánh Vy"},"bio":"Hồ sơ showcase mô tả năng lực sáng tạo đồ uống cùng kinh nghiệm thi đấu và làm giám khảo, mang lại góc nhìn thực chiến khi truyền cảm hứng cho học viên mới. Nội dung dưới đây kế thừa từ website gốc và cần đối chiếu với hồ sơ thật trước khi công bố.","verification":["Xác minh thành tích thi đấu & vai trò giám khảo","Xác minh các cuộc thi/sự kiện đã tham gia","Xin phép sử dụng hình ảnh & thông tin cá nhân chính thức"]}
+  ]},
+  "proof":{"eyebrow":"Thành tựu","title":"Những con số cần được chứng minh bằng hồ sơ thật","description":"Số liệu dưới đây lấy từ website gốc, đang ở trạng thái DEMO và cần xác minh bằng hồ sơ trước khi Go-live.","status":"DEMO","items":[
+    {"icon":"students","value":"15.000+","label":"Học viên đã tốt nghiệp"},
+    {"icon":"shops","value":"780+","label":"Lớp học đã tổ chức"},
+    {"icon":"recipes","value":"300+","label":"Công thức độc quyền"},
+    {"icon":"years","value":"10+","label":"Năm kinh nghiệm"},
+    {"icon":"satisfaction","value":"98%","label":"Học viên hài lòng"}
+  ]},
+  "testimonial":{"eyebrow":"Câu chuyện học viên","title":"Một trải nghiệm thật có sức thuyết phục hơn mười lời quảng cáo","quote":"Ban đầu chị đăng ký để trải nghiệm. Sau buổi học đầu tiên, cách giảng dạy và nội dung khiến chị quyết định tiếp tục với khóa tổng hợp.","name":"Chị Hảo","context":"Học viên lớp Pha Chế Tổng Hợp — nội dung showcase cần xác minh","image":{"src":"/images/golden-source/hoc-vien-hao.webp","alt":"Học viên chia sẻ trải nghiệm sau lớp pha chế","status":"DEMO"}},
+  "community":{"eyebrow":"Không khí lớp học","title":"Một website đào tạo phải cho người xem thấy trải nghiệm sẽ diễn ra như thế nào","description":"Ảnh lớp học thật giúp website bớt cảm giác minh họa và tăng độ tin cậy cho hành trình học.","items":[
+    {"src":"/images/golden-source/cong-dong-01.webp","alt":"Học viên thực hành trong lớp pha chế","status":"DEMO"},
+    {"src":"/images/golden-source/cong-dong-02.webp","alt":"Không khí lớp học pha chế Nguyên Khoa","status":"DEMO"},
+    {"src":"/images/golden-source/cong-dong-03.webp","alt":"Giảng viên hướng dẫn học viên tại quầy","status":"DEMO"}
+  ]},
+  "news":{"eyebrow":"Kiến thức F&B","title":"Nội dung giúp thương hiệu tiếp tục đồng hành sau khóa học","description":"Starter dùng dữ liệu tĩnh. Khóa Advanced có thể thay nguồn này bằng WordPress Headless.","items":[
+    {"category":"Xu hướng đồ uống","date":"25/06/2026","title":"Cà phê muối – hiện tượng đồ uống được nhiều người quan tâm","image":{"src":"/images/golden-source/tin-ca-phe-muoi.webp","alt":"Bài viết về cà phê muối","status":"DEMO"}},
+    {"category":"Công thức pha chế","date":"24/06/2026","title":"5 công thức trà trái cây nhiệt đới cho mùa hè","image":{"src":"/images/golden-source/tin-tra-nhiet-doi.webp","alt":"Các món trà trái cây nhiệt đới","status":"DEMO"}},
+    {"category":"Kinh doanh & Marketing","date":"23/06/2026","title":"Cách định giá đồ uống để cân bằng lợi nhuận và trải nghiệm","image":{"src":"/images/golden-source/tin-dinh-gia.webp","alt":"Minh họa cách định giá đồ uống","status":"DEMO"}},
+    {"category":"Nguyên liệu & Dụng cụ","date":"22/06/2026","title":"Chọn máy móc và dụng cụ cho quán mới mở","image":{"src":"/images/golden-source/tin-may-moc.webp","alt":"Máy móc và dụng cụ pha chế","status":"DEMO"}}
+  ]}
+}

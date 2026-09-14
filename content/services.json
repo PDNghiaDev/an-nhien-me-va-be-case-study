@@ -1,0 +1,188 @@
+{
+  "seo":{"title":"Khóa học pha chế","description":"So sánh hình thức học pha chế trực tiếp và online theo điều kiện thực hành của bạn.","path":"/khoa-hoc","ogImage":"/images/khoa-hoc/hoc-truc-tiep-v2.webp","ogImageAlt":"Học viên thực hành pha chế trực tiếp"},
+  "hero": {
+    "eyebrow": "Khóa học",
+    "title": "Chọn cách học phù hợp với nhịp chuẩn bị của bạn",
+    "description": "So sánh điều kiện thời gian, mức độ cần hướng dẫn và khả năng tự thực hành trước khi chọn. Hai hình thức bên dưới đều đi theo cùng một lộ trình bốn bước.",
+    "status": "DEMO"
+  },
+  "steps": {
+    "eyebrow": "Lộ trình học",
+    "title": "Bốn bước để thành nghề",
+    "description": "Dù chọn học trực tiếp hay online, mọi học viên đều đi qua bốn bước này trước khi tự tin đứng quầy.",
+    "status": "DEMO",
+    "items": [
+      { "title": "Chuẩn bị", "description": "Làm quen dụng cụ, nguyên liệu và khu vực thực hành trước khi bắt đầu buổi học đầu tiên." },
+      { "title": "Nền tảng", "description": "Hiểu vì sao phải đo lường, canh nhiệt độ, tỷ lệ và trình tự — không chỉ học thuộc công thức." },
+      { "title": "Thực hành", "description": "Làm đi làm lại theo bài mẫu, ghi lại kết quả từng lần và đối chiếu với giảng viên." },
+      { "title": "Ứng dụng", "description": "Sắp xếp quy trình đã học vào bối cảnh thật: quán của bạn, thực đơn của bạn, khách của bạn." }
+    ]
+  },
+  "commitment": {
+    "eyebrow": "Cam kết chất lượng",
+    "title": "Học thật, thực hành thật, góp ý thật",
+    "description": "Đây là những cam kết DEMO minh họa cấu trúc trang; nội dung chính thức cần chủ thương hiệu xác minh trước khi công bố.",
+    "status": "DEMO",
+    "items": [
+      { "title": "Giảng viên đồng hành", "description": "Người hướng dẫn trực tiếp quan sát thao tác và góp ý ngay trong buổi học, không học qua video ghi sẵn." },
+      { "title": "Dụng cụ thực tế", "description": "Thực hành trên máy móc, nguyên liệu giống với môi trường vận hành quán thật." },
+      { "title": "Lộ trình rõ ràng", "description": "Bốn bước cố định giúp học viên biết mình đang ở đâu và cần làm gì tiếp theo." },
+      { "title": "Hỗ trợ sau khóa học", "description": "Kênh trao đổi riêng để hỏi lại khi bắt đầu áp dụng vào công việc thật." }
+    ]
+  },
+  "comparison": {
+    "eyebrow": "Gợi ý lựa chọn",
+    "title": "Chọn theo điều kiện thực hành",
+    "description": "Trực tiếp nếu ưu tiên tương tác tại chỗ; online nếu cần chủ động thời gian. Đây là gợi ý DEMO, không thay cho tư vấn cá nhân.",
+    "status": "DEMO"
+  },
+  "finalCta": {
+    "eyebrow": "Sẵn sàng bắt đầu",
+    "title": "Vẫn chưa chắc nên chọn hình thức nào?",
+    "description": "Để lại thông tin, đội ngũ Nguyên Khoa sẽ gọi lại và gợi ý lộ trình phù hợp với thời gian và mục tiêu của bạn.",
+    "status": "DEMO",
+    "primaryCta": { "label": "Đăng ký tư vấn", "href": "/lien-he", "status": "DEMO" },
+    "secondaryCta": { "label": "Xem đội ngũ giảng viên", "href": "/doi-ngu", "status": "DEMO" }
+  },
+  "detailUi": {
+    "audienceEyebrow": "Phù hợp với ai",
+    "audienceTitle": "Hình thức học này dành cho bạn nếu…",
+    "outcomesEyebrow": "Kết quả đạt được",
+    "outcomesTitle": "Sau khóa học, bạn có thể",
+    "contentEyebrow": "Nội dung DEMO",
+    "contentTitle": "Bạn sẽ đi qua bốn nhóm nội dung",
+    "processEyebrow": "Quy trình học",
+    "processTitle": "Một buổi học diễn ra như thế nào",
+    "faqEyebrow": "Hỏi đáp",
+    "faqTitle": "Câu hỏi thường gặp",
+    "verifyEyebrow": "Trước khi đăng ký",
+    "verifyTitle": "Thông tin cần được xác minh",
+    "contactLabel": "Xem thông tin liên hệ",
+    "catalogLabel": "Xem các khóa học",
+    "contactSecondaryLabel": "Tới trang liên hệ"
+  },
+  "items": [
+    {
+      "seo":{"title":"Học pha chế trực tiếp","description":"Hình thức học dành cho người muốn quan sát thao tác, dùng dụng cụ thật và nhận góp ý tại chỗ.","path":"/khoa-hoc/pha-che-truc-tiep","ogImage":"/images/khoa-hoc/hoc-truc-tiep-v2.webp","ogImageAlt":"Học viên tập rót sữa và tạo hình trên ly cà phê"},
+      "slug": "pha-che-truc-tiep",
+      "name": { "value": "Học pha chế trực tiếp", "status": "DEMO" },
+      "description": {
+        "value": "Phù hợp khi bạn muốn quan sát thao tác, dùng dụng cụ thực tế và nhận góp ý ngay trong buổi học.",
+        "status": "DEMO"
+      },
+      "image": {
+        "src": "/images/khoa-hoc/hoc-truc-tiep-v2.webp",
+        "alt": "Học viên tập rót sữa và tạo hình trên ly cà phê",
+        "status": "DEMO"
+      },
+      "audience": [
+        "Người mới cần lộ trình dễ theo dõi",
+        "Người chuẩn bị mở quán muốn hiểu kỹ năng nền tảng",
+        "Người muốn được quan sát và góp ý tại chỗ"
+      ],
+      "outcomes": [
+        { "title": "Pha đúng công thức nền", "description": "Tự tay pha các món nền (espresso, trà, đá xay) đúng tỷ lệ và trình tự đã học." },
+        { "title": "Đọc được lỗi thao tác", "description": "Nhận ra vì sao một ly đồ uống bị sai vị hoặc sai kết cấu để tự điều chỉnh." },
+        { "title": "Làm việc với dụng cụ quán", "description": "Thao tác thành thạo với máy pha, dụng cụ định lượng dùng phổ biến tại quán." }
+      ],
+      "learnings": [
+        {
+          "title": "Chuẩn bị",
+          "description": "Nhận biết nhóm dụng cụ, nguyên liệu và khu vực thực hành."
+        },
+        {
+          "title": "Nền tảng",
+          "description": "Hiểu mục đích của đo lường, nhiệt độ, tỷ lệ và trình tự."
+        },
+        {
+          "title": "Thực hành",
+          "description": "Làm theo bài mẫu, ghi lại kết quả và đối chiếu."
+        },
+        {
+          "title": "Ứng dụng",
+          "description": "Sắp xếp quy trình phù hợp bối cảnh cá nhân."
+        }
+      ],
+      "process": [
+        { "title": "Quan sát", "description": "Giảng viên thị phạm từng thao tác trước khi học viên bắt đầu." },
+        { "title": "Làm theo", "description": "Học viên thực hành lại dưới sự theo dõi trực tiếp tại quầy." },
+        { "title": "Nhận góp ý", "description": "Giảng viên chỉ ra điểm cần chỉnh ngay trong buổi, không chờ đến buổi sau." },
+        { "title": "Lặp lại", "description": "Thực hành thêm lượt nữa để thao tác trở thành phản xạ." }
+      ],
+      "faq": [
+        { "question": "Tôi chưa từng pha chế có học được không?", "answer": "Được. Lộ trình bắt đầu từ nhận biết dụng cụ và nguyên liệu trước khi vào thực hành." },
+        { "question": "Buổi học kéo dài bao lâu?", "answer": "Thời lượng cụ thể đang chờ xác minh, sẽ cập nhật trong mục cần xác minh bên dưới." },
+        { "question": "Tôi có cần mang theo dụng cụ không?", "answer": "Không, dụng cụ thực hành được chuẩn bị sẵn tại lớp." }
+      ],
+      "verification": [
+        "Lịch, thời lượng, địa điểm",
+        "Học phí, ưu đãi, hoàn tiền",
+        "Dụng cụ, nguyên liệu, chi phí",
+        "Hỗ trợ, chứng nhận và đầu ra"
+      ],
+      "schedule": { "value": "", "status": "CẦN THAY" },
+      "price": { "value": "", "status": "CẦN THAY" }
+    },
+    {
+      "seo":{"title":"Học pha chế online","description":"Hình thức học pha chế linh hoạt dành cho người có thể tự chuẩn bị dụng cụ và không gian thực hành.","path":"/khoa-hoc/pha-che-online","ogImage":"/images/khoa-hoc/hoc-online-v2.webp","ogImageAlt":"Học viên thực hành pha đồ uống tại nhà bên cạnh máy tính"},
+      "slug": "pha-che-online",
+      "name": { "value": "Học pha chế online", "status": "DEMO" },
+      "description": {
+        "value": "Phù hợp khi bạn cần chủ động thời gian, muốn xem lại hướng dẫn và có thể tự chuẩn bị không gian thực hành.",
+        "status": "DEMO"
+      },
+      "image": {
+        "src": "/images/khoa-hoc/hoc-online-v2.webp",
+        "alt": "Học viên thực hành pha đồ uống tại nhà bên cạnh máy tính",
+        "status": "DEMO"
+      },
+      "audience": [
+        "Người cần chủ động thời gian",
+        "Người có thể tự chuẩn bị dụng cụ",
+        "Người muốn xem lại hướng dẫn nhiều lần"
+      ],
+      "outcomes": [
+        { "title": "Tự thực hành đúng nhịp", "description": "Sắp xếp lịch tự học và tự thực hành phù hợp với thời gian biểu cá nhân." },
+        { "title": "Xem lại khi cần", "description": "Quay lại bài hướng dẫn để đối chiếu thao tác thay vì ghi nhớ một lần." },
+        { "title": "Chuẩn bị không gian học tại nhà", "description": "Tự bố trí góc thực hành với dụng cụ tối thiểu cần thiết." }
+      ],
+      "learnings": [
+        {
+          "title": "Chuẩn bị",
+          "description": "Sắp xếp dụng cụ, nguyên liệu và góc học tại nhà."
+        },
+        {
+          "title": "Nền tảng",
+          "description": "Hiểu trình tự, tỷ lệ và mục đích của từng thao tác."
+        },
+        {
+          "title": "Thực hành",
+          "description": "Xem bài, tự làm và ghi lại kết quả."
+        },
+        {
+          "title": "Ứng dụng",
+          "description": "Điều chỉnh nhịp học theo điều kiện cá nhân."
+        }
+      ],
+      "process": [
+        { "title": "Xem bài giảng", "description": "Theo dõi hướng dẫn từng bước trước khi bắt tay vào thực hành." },
+        { "title": "Tự thực hành", "description": "Pha theo đúng trình tự đã xem, tại không gian đã chuẩn bị sẵn." },
+        { "title": "Gửi kết quả", "description": "Ghi lại hình ảnh hoặc mô tả kết quả để đối chiếu với bài mẫu." },
+        { "title": "Nhận phản hồi", "description": "Nhận góp ý từ giảng viên qua kênh hỗ trợ trước khi qua bài tiếp theo." }
+      ],
+      "faq": [
+        { "question": "Tôi có cần thiết bị gì đặc biệt để học online?", "answer": "Chỉ cần thiết bị xem video và dụng cụ pha chế cơ bản tự chuẩn bị tại nhà." },
+        { "question": "Tôi xem lại bài học được bao lâu?", "answer": "Thời hạn truy cập đang chờ xác minh, sẽ cập nhật trong mục cần xác minh bên dưới." },
+        { "question": "Có ai hướng dẫn khi tôi làm sai không?", "answer": "Có kênh hỗ trợ để gửi câu hỏi và nhận phản hồi từ giảng viên." }
+      ],
+      "verification": [
+        "Danh mục bài học và thời hạn truy cập",
+        "Học phí và điều kiện hoàn tiền",
+        "Dụng cụ, nguyên liệu cần chuẩn bị",
+        "Hình thức hỗ trợ và đầu ra"
+      ],
+      "schedule": { "value": "", "status": "CẦN THAY" },
+      "price": { "value": "", "status": "CẦN THAY" }
+    }
+  ]
+}

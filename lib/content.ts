@@ -1,0 +1,26 @@
+// Đây là lớp duy nhất được phép đọc content/*.json.
+import siteJson from "@/content/site.json";
+import homeJson from "@/content/home.json";
+import aboutJson from "@/content/about.json";
+import servicesJson from "@/content/services.json";
+import projectsJson from "@/content/projects.json";
+import contactJson from "@/content/contact.json";
+import legalJson from "@/content/legal.json";
+import showcaseJson from "@/content/showcase.json";
+import homeConversionJson from "@/content/home-conversion.json";
+import newsJson from "@/content/news.json";
+import type {AboutContent,ContactContent,HomeContent,HomeConversionContent,LegalContent,NewsContent,ProjectsContent,ServiceItem,ServicesContent,ShowcaseContent,SiteContent} from "@/lib/types";
+export const getSiteContent=():SiteContent=>siteJson as SiteContent;
+export const getHomeContent=():HomeContent=>homeJson as HomeContent;
+export const getAboutContent=():AboutContent=>aboutJson as AboutContent;
+export const getServicesContent=():ServicesContent=>servicesJson as ServicesContent;
+export const getProjectsContent=():ProjectsContent=>projectsJson as ProjectsContent;
+export const getContactContent=():ContactContent=>contactJson as ContactContent;
+export const getLegalContent=():LegalContent=>legalJson as LegalContent;
+export const getShowcaseContent=():ShowcaseContent=>showcaseJson as ShowcaseContent;
+export const getHomeConversionContent=():HomeConversionContent=>homeConversionJson as HomeConversionContent;
+export const getNewsContent=():NewsContent=>newsJson as NewsContent;
+export const getServiceBySlug=(slug:string):ServiceItem|undefined=>getServicesContent().items.find(item=>item.slug===slug);
+export const getFacultyBySlug=(slug:string)=>getShowcaseContent().faculty.items.find(item=>item.slug===slug);
+export const getArticleBySlug=(slug:string)=>getNewsContent().items.find(item=>item.slug===slug);
+export const getWorkspaceStatus=getSiteContent;

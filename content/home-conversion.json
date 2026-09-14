@@ -1,0 +1,224 @@
+{
+  "courses": {
+    "eyebrow": "",
+    "title": "KHÓA HỌC NỔI BẬT",
+    "description": "Hai hình thức học đang được mở đăng ký. Học phí và lịch khai giảng cần chủ thương hiệu xác minh trước Go-live.",
+    "status": "DEMO",
+    "items": [
+      {
+        "slug": "pha-che-truc-tiep",
+        "badge": "Miễn phí",
+        "title": "Học pha chế miễn phí",
+        "price": { "value": "Miễn phí", "status": "DEMO" },
+        "priceNote": "",
+        "description": "Khóa học pha chế miễn phí tại trung tâm Nguyên Khoa.",
+        "highlights": [],
+        "image": {
+          "src": "/images/golden-source/lop-hoc.webp",
+          "alt": "Học viên thực hành trong buổi học pha chế miễn phí",
+          "status": "DEMO"
+        },
+        "cta": { "label": "Xem chi tiết", "href": "/khoa-hoc/pha-che-truc-tiep", "status": "DEMO" }
+      },
+      {
+        "slug": "pha-che-online",
+        "badge": "Online · Miễn phí",
+        "title": "Học pha chế miễn phí online",
+        "price": { "value": "Online · Miễn phí", "status": "DEMO" },
+        "priceNote": "",
+        "description": "Học pha chế miễn phí theo hình thức online, học mọi lúc mọi nơi.",
+        "highlights": [],
+        "image": {
+          "src": "/images/original-site/course-online.webp",
+          "alt": "Học viên học pha chế online tại nhà",
+          "status": "DEMO"
+        },
+        "cta": { "label": "Xem chi tiết", "href": "/khoa-hoc/pha-che-online", "status": "DEMO" }
+      }
+    ]
+  },
+  "testimonialVideo": {
+    "eyebrow": "Cảm nhận học viên",
+    "title": "HỌC VIÊN NÓI GÌ VỀ CHÚNG TÔI",
+    "description": "Các video dưới đây được nhúng từ kênh YouTube của thương hiệu và cần đối chiếu quyền sử dụng hình ảnh học viên trước Go-live.",
+    "status": "DEMO",
+    "items": [
+      { "youtubeId": "Ue1Q9Dyue9Q", "title": "Chị Hảo chia sẻ sau khóa Pha Chế Tổng Hợp" },
+      { "youtubeId": "KBC2kdwGOmo", "title": "Cảm nhận học viên sau buổi học thực hành" },
+      { "youtubeId": "Ty5vNgBKIjo", "title": "Học viên nói về lộ trình học pha chế" },
+      { "youtubeId": "xmJAFPybK-U", "title": "Học viên chuẩn bị mở quán chia sẻ trải nghiệm" },
+      { "youtubeId": "aaIw_fy4iwc", "title": "Học viên đánh giá cách giảng dạy tại lớp" },
+      { "youtubeId": "OZVQCxFMz8w", "title": "Học viên chia sẻ về hỗ trợ sau khóa học" }
+    ],
+    "quote": {
+      "text": "Sau 2 ngày học, chị cảm thấy mình đã tiếp thu được rất nhiều kiến thức bổ ích. Ban đầu, chị chỉ đăng ký học miễn phí với tâm lý muốn đến trải nghiệm và tìm hiểu chương trình. Tuy nhiên, ngay từ buổi học đầu tiên, chị đã rất ấn tượng với cách giảng dạy và nội dung khóa học. Chính vì vậy, chị quyết định đăng ký khóa học tổng hợp và đến nay cảm thấy rất hài lòng với quyết định của mình.",
+      "name": "Chị Hảo",
+      "context": "Lớp Pha Chế Tổng Hợp - Khóa 6/2026",
+      "status": "DEMO",
+      "avatar": {
+        "src": "/images/golden-source/hoc-vien-hao.webp",
+        "alt": "Chân dung chị Hảo, học viên lớp Pha Chế Tổng Hợp",
+        "status": "DEMO"
+      }
+    },
+    "ui": {
+      "playLabel": "Phát video",
+      "playerLabel": "Video cảm nhận học viên",
+      "listLabel": "Danh sách video cảm nhận học viên",
+      "activeLabel": "Đang chọn",
+      "consentNote": "Video chỉ được tải từ YouTube sau khi bạn bấm phát."
+    }
+  },
+  "community": {
+    "eyebrow": "",
+    "title": "CỘNG ĐỒNG NGUYÊN KHOA F&B",
+    "description": "Hình ảnh lớp học thật giúp người xem hình dung buổi học sẽ diễn ra như thế nào trước khi đăng ký.",
+    "status": "DEMO",
+    "ui": {
+      "galleryLabel": "Bộ ảnh cộng đồng học viên, tự chạy ngang và tạm dừng khi trỏ hoặc lấy tiêu điểm",
+      "motionNote": "Dải ảnh tạm dừng khi bạn trỏ chuột hoặc dùng bàn phím lấy tiêu điểm."
+    },
+    "items": [
+      { "src": "/images/original-site/community-01.webp", "alt": "Học viên thực hành pha chế tại quầy", "status": "DEMO" },
+      { "src": "/images/original-site/community-02.webp", "alt": "Giảng viên hướng dẫn thao tác cho học viên", "status": "DEMO" },
+      { "src": "/images/original-site/community-03.webp", "alt": "Nhóm học viên trong buổi học pha chế", "status": "DEMO" },
+      { "src": "/images/original-site/community-04.webp", "alt": "Học viên hoàn thành ly đồ uống đầu tiên", "status": "DEMO" },
+      { "src": "/images/original-site/community-05.webp", "alt": "Không khí lớp học pha chế buổi tối", "status": "DEMO" },
+      { "src": "/images/original-site/community-06.webp", "alt": "Học viên chụp ảnh cùng thành phẩm", "status": "DEMO" },
+      { "src": "/images/original-site/community-07.webp", "alt": "Buổi thực hành theo nhóm tại lớp", "status": "DEMO" },
+      { "src": "/images/original-site/community-08.webp", "alt": "Giảng viên nhận xét thành phẩm của học viên", "status": "DEMO" },
+      { "src": "/images/original-site/community-09.webp", "alt": "Học viên chuẩn bị nguyên liệu trước buổi học", "status": "DEMO" },
+      { "src": "/images/original-site/community-10.webp", "alt": "Lớp học pha chế đông học viên", "status": "DEMO" },
+      { "src": "/images/original-site/community-11.webp", "alt": "Học viên trao đổi cùng giảng viên sau buổi học", "status": "DEMO" },
+      { "src": "/images/golden-source/cong-dong-02.webp", "alt": "Ảnh tổng kết khóa học cùng học viên", "status": "DEMO" }
+    ]
+  },
+  "news": {
+    "eyebrow": "Kiến thức F&B",
+    "title": "TIN TỨC",
+    "description": "Công thức, xu hướng đồ uống và kinh nghiệm vận hành quán được cập nhật thường xuyên.",
+    "status": "DEMO",
+    "ui": {
+      "readMore": "Đọc tiếp",
+      "readMoreLabel": "Đọc tiếp bài viết",
+      "listLabel": "Danh sách bài viết mới nhất"
+    },
+    "cta": { "label": "XEM TẤT CẢ", "href": "/tin-tuc", "status": "DEMO" },
+    "items": [
+      {
+        "slug": "ca-phe-muoi",
+        "category": "Xu hướng đồ uống",
+        "date": "25/06/2026",
+        "dateISO": "2026-06-25",
+        "title": "Cà phê muối – hiện tượng đồ uống được nhiều người quan tâm",
+        "href": "/tin-tuc/ca-phe-muoi",
+        "image": {
+          "src": "/images/golden-source/tin-ca-phe-muoi.webp",
+          "alt": "Ly cà phê muối trong bài viết về xu hướng đồ uống",
+          "status": "DEMO"
+        }
+      },
+      {
+        "slug": "tra-trai-cay-nhiet-doi",
+        "category": "Công thức pha chế",
+        "date": "24/06/2026",
+        "dateISO": "2026-06-24",
+        "title": "5 công thức trà trái cây nhiệt đới cho mùa hè",
+        "href": "/tin-tuc/tra-trai-cay-nhiet-doi",
+        "image": {
+          "src": "/images/golden-source/tin-tra-nhiet-doi.webp",
+          "alt": "Các món trà trái cây nhiệt đới xếp cạnh nhau",
+          "status": "DEMO"
+        }
+      },
+      {
+        "slug": "dinh-gia-do-uong",
+        "category": "Kinh doanh & Marketing",
+        "date": "23/06/2026",
+        "dateISO": "2026-06-23",
+        "title": "Cách định giá đồ uống để cân bằng lợi nhuận và trải nghiệm",
+        "href": "/tin-tuc/dinh-gia-do-uong",
+        "image": {
+          "src": "/images/golden-source/tin-dinh-gia.webp",
+          "alt": "Minh họa cách định giá đồ uống cho quán",
+          "status": "DEMO"
+        }
+      },
+      {
+        "slug": "may-moc-dung-cu",
+        "category": "Nguyên liệu & Dụng cụ",
+        "date": "22/06/2026",
+        "dateISO": "2026-06-22",
+        "title": "Chọn máy móc và dụng cụ cho quán mới mở",
+        "href": "/tin-tuc/may-moc-dung-cu",
+        "image": {
+          "src": "/images/golden-source/tin-may-moc.webp",
+          "alt": "Máy móc và dụng cụ pha chế cho quán mới mở",
+          "status": "DEMO"
+        }
+      }
+    ]
+  },
+  "consult": {
+    "status": "DEMO",
+    "background": {
+      "src": "/images/original-site/final-cta-background.webp",
+      "alt": "",
+      "status": "DEMO"
+    },
+    "foreground": {
+      "src": "/images/original-site/cta-drinks.webp",
+      "alt": "Bộ sưu tập đồ uống do học viên Nguyên Khoa thực hiện",
+      "status": "DEMO"
+    },
+    "eyebrow": "ĐÀO TẠO PHA CHẾ CHUYÊN NGHIỆP",
+    "title": "ĐỒNG HÀNH CÙNG QUÁN PHÁT TRIỂN BỀN VỮNG",
+    "description": "Để lại thông tin để đội ngũ Nguyên Khoa gọi lại, tư vấn lộ trình học và kế hoạch mở quán phù hợp với ngân sách của bạn.",
+    "primaryCta": { "label": "Đăng ký tư vấn", "href": "/lien-he", "status": "DEMO" },
+    "secondaryCta": { "label": "Xem khóa học", "href": "/khoa-hoc", "status": "DEMO" },
+    "form": {
+      "title": "Nhận tư vấn miễn phí",
+      "description": "Chúng tôi phản hồi trong giờ làm việc, từ 8h đến 20h mỗi ngày.",
+      "status": "DEMO",
+      "name": {
+        "label": "Họ và tên",
+        "placeholder": "Nguyễn Văn A",
+        "required": true,
+        "requiredError": "Vui lòng nhập họ và tên.",
+        "invalidError": "Họ và tên cần ít nhất 2 ký tự."
+      },
+      "phone": {
+        "label": "Số điện thoại",
+        "placeholder": "0964 220 088",
+        "required": true,
+        "requiredError": "Vui lòng nhập số điện thoại.",
+        "invalidError": "Số điện thoại chưa đúng định dạng, ví dụ 0964220088."
+      },
+      "topic": {
+        "label": "Bạn cần tư vấn về",
+        "placeholder": "Chọn nội dung cần tư vấn",
+        "required": true,
+        "requiredError": "Vui lòng chọn nội dung cần tư vấn.",
+        "invalidError": "Vui lòng chọn nội dung cần tư vấn.",
+        "options": [
+          "Khóa học pha chế",
+          "Mở quán & vận hành",
+          "Xây dựng menu",
+          "Học phí - Lộ trình",
+          "Khác"
+        ]
+      },
+      "message": {
+        "label": "Lời nhắn",
+        "placeholder": "Bạn đang chuẩn bị mở quán ở đâu, quy mô thế nào?",
+        "required": false,
+        "requiredError": "",
+        "invalidError": "Lời nhắn tối đa 500 ký tự."
+      },
+      "submitLabel": "KIỂM TRA FORM DEMO",
+      "successMessage": "Dữ liệu hợp lệ. Không có thông tin nào được gửi hoặc lưu.",
+      "errorSummary": "Vui lòng kiểm tra lại các ô được đánh dấu bên dưới.",
+      "demoNote": "MÔ PHỎNG FORM — dữ liệu chỉ được kiểm tra trên trình duyệt, không được gửi hoặc lưu. Muốn liên hệ thật, hãy dùng Zalo, điện thoại hoặc email chính thức."
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "seo": {"title":"Học pha chế thực chiến","description":"Tìm hiểu hình thức học pha chế trực tiếp và online dành cho người mới hoặc đang chuẩn bị mở quán.","path":"/","ogImage":"/images/hero/hero-thuc-hanh-v2.webp","ogImageAlt":"Học viên thực hành rót trà tại quầy pha chế"},
+  "hero": {
+    "eyebrow": { "value": "Đào tạo pha chế thực chiến", "status": "DEMO" },
+    "title": {
+      "value": "Học pha chế vững nghề – mở quán thành công",
+      "status": "DEMO"
+    },
+    "description": {
+      "value": "Hơn 15 năm đồng hành cùng hàng ngàn học viên trên hành trình chinh phục đam mê F&B.",
+      "status": "DEMO"
+    },
+    "primaryCta": {
+      "label": "Đăng ký tư vấn ngay",
+      "href": "/lien-he",
+      "status": "DEMO"
+    },
+    "secondaryCta": {
+      "label": "Xem khóa học",
+      "href": "/khoa-hoc",
+      "status": "DEMO"
+    },
+    "background": {
+      "src": "/images/original-site/hero-home-composite.webp",
+      "alt": "",
+      "status": "DEMO"
+    },
+    "foreground": {
+      "src": "/images/original-site/hero-home-foreground.webp",
+      "alt": "Đội ngũ Nguyên Khoa cùng các món đồ uống pha chế",
+      "status": "DEMO"
+    },
+    "trustPoints": [
+      { "icon": "practice", "label": "Học thực hành 70%" },
+      { "icon": "mentor", "label": "Giảng viên giàu kinh nghiệm" },
+      { "icon": "roadmap", "label": "Công thức độc quyền" },
+      { "icon": "community", "label": "Hỗ trợ mở quán trọn gói" }
+    ]
+  },
+  "benefits": {
+    "status": "DEMO",
+    "items": [
+      { "icon": "practice", "title": "Thực hành xuyên suốt", "description": "Tự làm trên dụng cụ thật ngay trong buổi học." },
+      { "icon": "recipe", "title": "Công thức có quy trình", "description": "Hiểu tỷ lệ và trình tự, không chỉ chép công thức." },
+      { "icon": "tools", "title": "Dụng cụ chuẩn quầy", "description": "Làm quen thiết bị như khi vận hành thật." },
+      { "icon": "mentor", "title": "Góp ý tại chỗ", "description": "Nhận phản hồi trên thành phẩm của chính bạn." },
+      { "icon": "roadmap", "title": "Lộ trình rõ ràng", "description": "Biết cần chuẩn bị gì trước và sau khóa học." },
+      { "icon": "community", "title": "Cộng đồng học viên", "description": "Tiếp tục trao đổi kinh nghiệm sau khóa học." }
+    ]
+  },
+  "audiences": {
+    "eyebrow": "Bắt đầu từ nhu cầu thật",
+    "title": "Bạn đang ở giai đoạn nào?",
+    "description": "Không cần chọn khóa học ngay. Hãy xác định điều bạn đang cần trước.",
+    "status": "DEMO",
+    "items": [
+      {
+        "title": "Mới có ý tưởng mở quán",
+        "description": "Hình dung những kỹ năng pha chế nên chuẩn bị trước khi đầu tư sâu hơn."
+      },
+      {
+        "title": "Đang chuẩn bị vận hành",
+        "description": "Luyện thao tác có trình tự và biết cách tự kiểm tra thành phẩm."
+      },
+      {
+        "title": "Cần cách học linh hoạt",
+        "description": "So sánh học trực tiếp và online theo thời gian, điều kiện thực hành."
+      }
+    ]
+  },
+  "programs": {
+    "eyebrow": "Hai hình thức học",
+    "title": "Chọn theo cách bạn muốn thực hành",
+    "description": "Mỗi hình thức phục vụ một điều kiện học khác nhau; lịch và học phí sẽ được xác minh trước khi mở đăng ký.",
+    "status": "DEMO"
+  },
+  "method": {
+    "eyebrow": "Phương pháp",
+    "title": "Học theo quy trình, không chỉ chép công thức",
+    "description": "Đi từ hiểu nguyên liệu và dụng cụ, quan sát thao tác, đến tự làm và đối chiếu thành phẩm.",
+    "image": {
+      "src": "/images/phuong-phap/phuong-phap-thuc-hanh-v2.webp",
+      "alt": "Người hướng dẫn kèm học viên thực hành tạo hình trên ly cà phê",
+      "status": "DEMO"
+    },
+    "items": [
+      { "title": "Hiểu bản chất", "description": "Biết vai trò của nguyên liệu, tỷ lệ và từng dụng cụ trước khi thao tác." },
+      { "title": "Học qua thực hành", "description": "Quan sát mẫu, tự làm và điều chỉnh ngay trên thành phẩm của mình." },
+      { "title": "Ứng dụng ngay", "description": "Chuyển kỹ năng thành quy trình có thể tiếp tục luyện tập sau buổi học." }
+    ],
+    "status": "DEMO"
+  },
+  "path": {
+    "eyebrow": "Lộ trình lựa chọn",
+    "title": "Ba bước trước khi đăng ký",
+    "status": "DEMO",
+    "items": [
+      {
+        "title": "Xác định mục tiêu",
+        "description": "Học để trải nghiệm, bổ sung kỹ năng hay chuẩn bị mở quán."
+      },
+      {
+        "title": "Chọn hình thức",
+        "description": "Trực tiếp nếu cần góp ý tại chỗ; online nếu ưu tiên linh hoạt."
+      },
+      {
+        "title": "Xác nhận thông tin",
+        "description": "Kiểm tra lịch, học phí, địa điểm và hỗ trợ trước khi quyết định."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Câu hỏi thường gặp",
+    "title": "Những điều nên biết trước",
+    "status": "DEMO",
+    "items": [
+      {
+        "question": "Tôi chưa biết pha chế có học được không?",
+        "answer": "Hai chương trình được định hướng cho người cần học theo trình tự. Trình độ đầu vào cụ thể cần được xác nhận trước khi công bố."
+      },
+      {
+        "question": "Nên học trực tiếp hay online?",
+        "answer": "Chọn trực tiếp nếu cần phản hồi tại chỗ; chọn online nếu cần chủ động thời gian và có thể tự chuẩn bị dụng cụ."
+      },
+      {
+        "question": "Website đã có lịch và học phí chưa?",
+        "answer": "Chưa. Các dữ liệu này đang ở trạng thái CẦN THAY và chưa được công bố như thông tin thật."
+      },
+      {
+        "question": "Có cam kết mở quán thành công không?",
+        "answer": "Không. Khóa học cung cấp kiến thức và môi trường thực hành; kết quả còn phụ thuộc quá trình học và điều kiện kinh doanh."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Bước tiếp theo",
+    "title": "Chọn hình thức học phù hợp với bước đi hiện tại",
+    "description": "Xem hai chương trình trước, sau đó kiểm tra thông tin đã được xác minh.",
+    "primaryCta": {
+      "label": "Xem khóa học",
+      "href": "/khoa-hoc",
+      "status": "DEMO"
+    },
+    "secondaryCta": {
+      "label": "Xem trang liên hệ",
+      "href": "/lien-he",
+      "status": "DEMO"
+    },
+    "status": "DEMO"
+  }
+}

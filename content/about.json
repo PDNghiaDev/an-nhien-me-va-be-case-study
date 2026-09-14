@@ -1,0 +1,45 @@
+{
+  "seo":{"title":"Giới thiệu","description":"Tìm hiểu cách Nguyên Khoa F&B định hướng việc học pha chế theo trình tự thực hành dễ theo dõi.","path":"/gioi-thieu","ogImage":"/images/phuong-phap/phuong-phap-thuc-hanh-v2.webp","ogImageAlt":"Người hướng dẫn kèm học viên thực hành pha chế"},
+  "hero": {
+    "eyebrow": "Giới thiệu",
+    "title": "Học pha chế theo hướng hiểu và làm được",
+    "description": "Nguyên Khoa F&B hướng nội dung tới người muốn học theo trình tự thực hành, đặc biệt là nhóm đang chuẩn bị mở quán.",
+    "status": "DEMO",
+    "image": {"src":"/images/golden-source/lop-hoc.webp","alt":"Không gian lớp học thực hành tại Nguyên Khoa","status":"DEMO"},
+    "variant": "landscape"
+  },
+  "positioning": {
+    "title": "Một website giúp bạn chọn đúng cách học",
+    "description": "Thay vì đưa ra lời hứa lớn, website tập trung giải thích hai hình thức học, cách tiếp cận và những thông tin cần xác nhận trước khi đăng ký.",
+    "status": "DEMO"
+  },
+  "principles": {
+    "eyebrow": "Cách tiếp cận",
+    "title": "Ba nguyên tắc trong quá trình học",
+    "status": "DEMO",
+    "items": [
+      {
+        "title": "Hiểu trước khi làm",
+        "description": "Biết vai trò của nguyên liệu, dụng cụ và từng thao tác."
+      },
+      {
+        "title": "Thực hành có trình tự",
+        "description": "Chia quá trình thành bước nhỏ để người mới dễ theo dõi."
+      },
+      {
+        "title": "Biết điểm cần cải thiện",
+        "description": "Quan sát thành phẩm và ghi lại điều cần sửa ở lần tiếp theo."
+      }
+    ]
+  },
+  "verification": {
+    "title": "Thông tin thương hiệu đang chờ xác minh",
+    "description": "Câu chuyện thành lập, hồ sơ người hướng dẫn, ảnh đội ngũ và thông tin pháp lý sẽ được bổ sung bằng nguồn chính thức.",
+    "status": "CẦN THAY"
+  },
+  "image": {
+    "src": "/images/phuong-phap/phuong-phap-thuc-hanh-v2.webp",
+    "alt": "Người hướng dẫn kèm học viên thực hành tạo hình trên ly cà phê",
+    "status": "DEMO"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "seo": { "title": "Kiến thức F&B", "description": "Công thức, xu hướng đồ uống, dụng cụ và kinh nghiệm vận hành quán dành cho người mới.", "path": "/tin-tuc", "ogImage": "/images/golden-source/tin-ca-phe-muoi.webp", "ogImageAlt": "Kiến thức và xu hướng đồ uống" },
+  "hero": {
+    "eyebrow": "Thư viện kiến thức",
+    "title": "Học nghề không dừng lại sau buổi học",
+    "description": "Công thức, xu hướng và kinh nghiệm vận hành được cập nhật để bạn tiếp tục học sau khi rời lớp.",
+    "status": "DEMO"
+  },
+  "categories": ["Xu hướng đồ uống", "Công thức pha chế", "Kinh doanh & Marketing", "Nguyên liệu & Dụng cụ"],
+  "ui": {
+    "searchLabel": "Tìm bài viết",
+    "searchPlaceholder": "Nhập từ khóa, ví dụ: cà phê muối",
+    "allCategoryLabel": "Tất cả chuyên mục",
+    "emptyResult": "Không tìm thấy bài viết phù hợp. Thử từ khóa khác hoặc chọn lại chuyên mục.",
+    "readMore": "Đọc tiếp",
+    "readMoreLabel": "Đọc tiếp bài viết",
+    "relatedTitle": "Bài viết liên quan",
+    "sidebarCategoriesTitle": "Chuyên mục",
+    "sidebarFeaturedTitle": "Bài viết nổi bật",
+    "breadcrumbHome": "Trang chủ",
+    "breadcrumbNews": "Tin tức"
+  },
+  "newsletter": {
+    "title": "Nhận bản tin",
+    "description": "Công thức mới và kinh nghiệm vận hành quán, gửi mỗi tháng một lần.",
+    "field": {
+      "label": "Email nhận bản tin",
+      "placeholder": "email@cuaban.com",
+      "required": true,
+      "requiredError": "Vui lòng nhập email.",
+      "invalidError": "Email chưa đúng định dạng."
+    },
+    "buttonLabel": "Thử form demo",
+    "note": "MÔ PHỎNG FORM — email chỉ được kiểm tra trên trình duyệt, không được gửi hoặc lưu.",
+    "successMessage": "Email hợp lệ. Không có thông tin nào được gửi hoặc lưu.",
+    "status": "DEMO"
+  },
+  "items": [
+    {
+      "slug": "ca-phe-muoi",
+      "category": "Xu hướng đồ uống",
+      "date": "25/06/2026",
+      "dateISO": "2026-06-25",
+      "title": "Cà phê muối – hiện tượng đồ uống được nhiều người quan tâm",
+      "excerpt": "Vì sao một chút muối lại làm vị cà phê đậm và tròn hơn, và cách đưa món này vào thực đơn quán của bạn.",
+      "readTime": "5 phút đọc",
+      "author": "Đội ngũ Nguyên Khoa",
+      "featured": true,
+      "image": { "src": "/images/golden-source/tin-ca-phe-muoi.webp", "alt": "Ly cà phê muối trong bài viết về xu hướng đồ uống", "status": "DEMO" },
+      "seo": { "title": "Cà phê muối là gì và vì sao đang được ưa chuộng", "description": "Giải thích xu hướng cà phê muối, cách pha cơ bản và lưu ý khi đưa vào thực đơn quán.", "path": "/tin-tuc/ca-phe-muoi", "ogImage": "/images/golden-source/tin-ca-phe-muoi.webp", "ogImageAlt": "Ly cà phê muối" },
+      "sections": [
+        { "heading": "Vì sao muối làm cà phê ngon hơn", "paragraphs": ["Một lượng muối rất nhỏ giúp trung hòa vị đắng gắt, khiến hậu vị cà phê tròn và dịu hơn thay vì gắt ở cuống lưỡi.", "Đây là nguyên lý vị giác cơ bản: muối làm giảm cảm nhận đắng và làm nổi bật vị ngọt tự nhiên có sẵn trong hạt cà phê."] },
+        { "heading": "Cách pha cơ bản tại quán", "paragraphs": ["Bắt đầu với một lượng muối rất nhỏ hòa cùng lớp kem sữa, nếm thử trước khi tăng dần để tránh làm át vị cà phê.", "Nên thử nghiệm trên từng loại hạt cụ thể, vì độ đậm và độ chua của hạt sẽ ảnh hưởng đến lượng muối phù hợp."] },
+        { "heading": "Lưu ý khi đưa vào thực đơn", "paragraphs": ["Nên giới thiệu món này như một lựa chọn mới bên cạnh menu quen thuộc, kèm mô tả ngắn để khách hiểu trước khi gọi.", "Cần kiểm soát định lượng muối đồng nhất giữa các ca pha để đảm bảo trải nghiệm khách hàng ổn định."] }
+      ]
+    },
+    {
+      "slug": "tra-trai-cay-nhiet-doi",
+      "category": "Công thức pha chế",
+      "date": "24/06/2026",
+      "dateISO": "2026-06-24",
+      "title": "5 công thức trà trái cây nhiệt đới cho mùa hè",
+      "excerpt": "Năm công thức trà trái cây dễ làm, dùng nguyên liệu quen thuộc, phù hợp bổ sung vào menu mùa nóng.",
+      "readTime": "6 phút đọc",
+      "author": "Đội ngũ Nguyên Khoa",
+      "featured": false,
+      "image": { "src": "/images/golden-source/tin-tra-nhiet-doi.webp", "alt": "Các món trà trái cây nhiệt đới xếp cạnh nhau", "status": "DEMO" },
+      "seo": { "title": "5 công thức trà trái cây nhiệt đới cho mùa hè", "description": "Tổng hợp 5 công thức trà trái cây dễ pha, phù hợp menu mùa hè cho quán mới mở.", "path": "/tin-tuc/tra-trai-cay-nhiet-doi", "ogImage": "/images/golden-source/tin-tra-nhiet-doi.webp", "ogImageAlt": "Trà trái cây nhiệt đới" },
+      "sections": [
+        { "heading": "Vì sao nên có trà trái cây trong menu hè", "paragraphs": ["Trà trái cây có vị nhẹ, dễ uống và phù hợp thời tiết nóng, giúp menu đa dạng hơn ngoài các món cà phê chủ lực.", "Nguyên liệu trái cây theo mùa cũng giúp quán kiểm soát chi phí tốt hơn so với nguyên liệu nhập khẩu quanh năm."] },
+        { "heading": "Nguyên tắc phối trái cây cơ bản", "paragraphs": ["Kết hợp một loại trái cây vị chua (chanh dây, tắc) với một loại vị ngọt (xoài, dứa) để cân bằng tổng thể.", "Trà nền nên được ủ đủ đậm trước khi phối trái cây, tránh vị trà bị loãng khi thêm đá và siro."] },
+        { "heading": "Gợi ý phục vụ", "paragraphs": ["Trang trí bằng lát trái cây tươi giúp món đồ uống hấp dẫn hơn khi khách chụp ảnh và chia sẻ.", "Nên chuẩn bị sẵn phần trái cây cắt sẵn trong ca cao điểm để rút ngắn thời gian pha chế."] }
+      ]
+    },
+    {
+      "slug": "dinh-gia-do-uong",
+      "category": "Kinh doanh & Marketing",
+      "date": "23/06/2026",
+      "dateISO": "2026-06-23",
+      "title": "Cách định giá đồ uống để cân bằng lợi nhuận và trải nghiệm",
+      "excerpt": "Cách tính giá vốn, biên lợi nhuận và tâm lý khách hàng khi lên giá bán cho một quán mới mở.",
+      "readTime": "7 phút đọc",
+      "author": "Đội ngũ Nguyên Khoa",
+      "featured": false,
+      "image": { "src": "/images/golden-source/tin-dinh-gia.webp", "alt": "Minh họa cách định giá đồ uống cho quán", "status": "DEMO" },
+      "seo": { "title": "Cách định giá đồ uống cho quán mới mở", "description": "Hướng dẫn cách tính giá vốn và định giá bán đồ uống cân bằng giữa lợi nhuận và trải nghiệm khách hàng.", "path": "/tin-tuc/dinh-gia-do-uong", "ogImage": "/images/golden-source/tin-dinh-gia.webp", "ogImageAlt": "Định giá đồ uống" },
+      "sections": [
+        { "heading": "Tính đúng giá vốn trước khi định giá", "paragraphs": ["Giá vốn cần tính đủ nguyên liệu, hao hụt, bao bì và một phần chi phí vận hành, không chỉ riêng nguyên liệu chính.", "Bỏ sót các chi phí nhỏ như ống hút, ly, nhãn dán là lỗi định giá phổ biến ở quán mới mở."] },
+        { "heading": "Chọn biên lợi nhuận phù hợp", "paragraphs": ["Biên lợi nhuận cần đủ để bù chi phí vận hành cố định như mặt bằng, nhân sự, điện nước hàng tháng.", "Nên so sánh với mặt bằng giá khu vực để giá bán vừa đủ cạnh tranh vừa đảm bảo lợi nhuận."] },
+        { "heading": "Yếu tố tâm lý khi lên giá", "paragraphs": ["Mức giá kết thúc bằng số lẻ thường tạo cảm giác được tính toán kỹ hơn so với số tròn.", "Khi tăng giá, nên đi kèm lý do rõ ràng (nguyên liệu mới, khẩu phần lớn hơn) để khách dễ chấp nhận."] }
+      ]
+    },
+    {
+      "slug": "may-moc-dung-cu",
+      "category": "Nguyên liệu & Dụng cụ",
+      "date": "22/06/2026",
+      "dateISO": "2026-06-22",
+      "title": "Chọn máy móc và dụng cụ cho quán mới mở",
+      "excerpt": "Danh sách máy móc và dụng cụ tối thiểu cần có, kèm gợi ý thứ tự đầu tư theo ngân sách.",
+      "readTime": "6 phút đọc",
+      "author": "Đội ngũ Nguyên Khoa",
+      "featured": false,
+      "image": { "src": "/images/golden-source/tin-may-moc.webp", "alt": "Máy móc và dụng cụ pha chế cho quán mới mở", "status": "DEMO" },
+      "seo": { "title": "Chọn máy móc và dụng cụ cho quán pha chế mới mở", "description": "Danh sách máy móc, dụng cụ tối thiểu và thứ tự ưu tiên đầu tư cho quán mới mở.", "path": "/tin-tuc/may-moc-dung-cu", "ogImage": "/images/golden-source/tin-may-moc.webp", "ogImageAlt": "Máy móc dụng cụ pha chế" },
+      "sections": [
+        { "heading": "Nhóm dụng cụ bắt buộc phải có", "paragraphs": ["Máy pha, máy xay, bình lắc và bộ dụng cụ định lượng là nhóm tối thiểu để vận hành một quầy pha chế cơ bản.", "Nên ưu tiên chất lượng ở nhóm dùng liên tục hàng ngày trước khi đầu tư vào thiết bị chuyên món."] },
+        { "heading": "Thứ tự đầu tư theo ngân sách", "paragraphs": ["Với ngân sách hạn chế, nên đầu tư máy móc lõi (pha, xay) trước, dụng cụ trang trí có thể bổ sung sau.", "Cân nhắc thuê hoặc mua máy đã qua kiểm định thay vì mua mới hoàn toàn nếu cần tiết kiệm vốn ban đầu."] },
+        { "heading": "Bảo trì để tránh chi phí phát sinh", "paragraphs": ["Vệ sinh máy móc hàng ngày giúp kéo dài tuổi thọ thiết bị và giữ ổn định chất lượng đồ uống.", "Nên lên lịch bảo trì định kỳ thay vì chờ máy hỏng mới sửa, tránh gián đoạn vận hành quán."] }
+      ]
+    }
+  ]
+}
